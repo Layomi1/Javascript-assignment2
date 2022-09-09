@@ -23,8 +23,8 @@ let newObject = {
           ]
     ]
 };
-
-  console.log('I want a '+ '\'3'+'\'-layered '+'\''+ newObject.name + '\''+','+ ' with '+ '\''+ newObject.type+'\'' + ', ' +'\''+ newObject.topping [4] .type +'\''+ ','+  '\'glazed'+ '\' with '+ '\''+newObject.topping[6].mapleBatter[1]+ '\''+ ' and '+ '\''+newObject.topping[2].type+'\'' + ' with a '+ '\''+batter[1].normalBatter[1].wetChoco+'\'' + ',' + ' that has the ' +'\''+ batter[0].type +'\'' + '\'' + +batter[1]. normalBatter[2][1]  +'\''+ '\''+ newObject.topping[3].type  + '\''+' with '+  '\''+ batter[1].normalBatter[2][2][2] + '\'' + ', '+ '\''+ batter[1].normalBatter[2][0]+ '\'' +' and ' +'\''+  batter[2].type +'\''+ '\'' +newObject.topping[0].type +'\'' + ' that cost '+'\''+ batter[3].amount+'\'')
-
+//  console.log(batter[1].normalBatter[1].wetChoco)
+ console.log('I want a '+ '3-layered ' + newObject.name + ' with '+ newObject.type+', '+ newObject.topping[4].type + newObject.topping[1] .type+ ' with '+newObject.topping[6].mapleBatter[1]+ ' and '+ newObject.topping[2].type + ' with a'+ batter[1].normalBatter[1].wetChoco+ ','+ 'that has the ' +batter[0].type+ batter[1].normalBatter[2][1] +  newObject.topping[3].type + ' with '+ batter[1].normalBatter[2][2][2] + ', '+ batter[1].normalBatter[2][0]+ ' and ' + batter[2].type + newObject.topping[0].type + ' that cost '+ batter[3].amount)
+  
 // "I want a '3'-layered 'cake', with 'donuts', 'Chocolate with Sprinkles', 'glazed' with 'dry batter' and 'sugar' with a 'wet runny taste', that has the 'regular' '68' 'powdered sugar' with 'banana flavour', 'red velvet' and 'blueberry' 'icing' that cost '$7'"
   
